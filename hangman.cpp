@@ -56,8 +56,6 @@ int main() {
     // pick a random word from the list of words using "randomNumber" as the position
     randomWord = words[randomNumber];
 
-    cout << "The random word: " << randomWord << endl;
-
     // go through all of the characters contained in the random word and associate the characters
     // with their positions within the string, as this will make it easier to display correct
     // character guesses in their correct spots
